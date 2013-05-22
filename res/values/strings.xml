@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StreamActivity</string>
+    <string name="main_screen">          Transferring...         </string>
+    <string name="menu_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="Str_Send">Send</string>
+    <string name="Str_StartScreen">Press button to initialise file or skip if already initialised</string>
+    <string name="enc_name">FileEncoder</string>
+    <string name="initialise">Initialise</string>
+    <string name="skipButton">Skip</string>
+    <string name="deficitText">Deficit</string>
+    <string name="frameNumberText">Frame Number</string>
+    <string name="ewmaText">Exponentially Weighted Moving Avg.</string>
+	<string name="serverIPText">Server IP</string>
+	<string name="IPField">192.168.0.105</string>
+	<string name="connectText">Connect</string>
+	  
+</resources>

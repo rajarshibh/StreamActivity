@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StreamActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="41dp"
+        android:text="@string/main_screen"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:background="@drawable/back"/>
+
+    <TextView
+        android:id="@+id/frameNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="43dp"
+        android:textColor="#990033"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/frameNumberText" />
+
+    <TextView
+        android:id="@+id/deficitLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/frameNumberLabel"
+        android:layout_below="@+id/frameNumberLabel"
+        android:layout_marginTop="85dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000066"
+        android:text="@string/deficitText" />
+
+    <TextView
+        android:id="@+id/ewmaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/deficitLabel"
+        android:layout_below="@+id/deficitLabel"
+        android:layout_marginTop="101dp"
+        android:text="@string/ewmaText"
+        android:textColor="#663300"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/frameNumberValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/frameNumberLabel"
+        android:layout_below="@+id/frameNumberLabel"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#990033"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/deficitValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/deficitLabel"
+        android:layout_below="@+id/deficitLabel"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000066"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/ewmaValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ewmaLabel"
+        android:layout_below="@+id/ewmaLabel"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#663300"
+        android:textSize="45sp" />
+
+</RelativeLayout>

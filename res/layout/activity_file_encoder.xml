@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FileEncoder" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/skipButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/initialise"
+        android:layout_marginTop="76dp"
+        android:text="@string/Str_StartScreen"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/initialise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/initialise" />
+
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/initialise"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="28dp"
+        android:text="@string/skipButton" />
+
+</RelativeLayout>
